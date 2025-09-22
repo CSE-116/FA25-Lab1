@@ -1,4 +1,6 @@
+package activity;
 import java.util.ArrayList;
+
 
 public class Kitty {
     /**These are the instance variables for the kitty!**/

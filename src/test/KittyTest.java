@@ -1,4 +1,8 @@
+package test;
 import org.junit.Test;
+import activity.Kitty;
+
+
 public class KittyTest {
 
     /** I would recommend making a utility method. A utility method is a method that compares
