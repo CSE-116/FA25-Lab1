@@ -55,8 +55,7 @@ public class Kitty {
     }
 
     /**This method will return an ArrayList of all the cats that are under (non-inclusive)
-     * the age of the kitten in the calling parameter.
-     */
+     * the age of the kitten in the calling parameter. */
     public ArrayList<Kitty> kittenSorter(ArrayList<Kitty> catList) {
         ArrayList<Kitty> kittenList = new ArrayList<>();
         for (Kitty cat : catList) {
