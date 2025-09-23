@@ -54,13 +54,13 @@ public class Kitty {
         return (TomWeight + PepperWeight) / 2;
     }
 
-    /**This method will return an ArrayList of all the kittens in the catList. For our purposes,
-     * a kitten is a cat this has an age of under 3.
+    /**This method will return an ArrayList of all the cats that are under (non-inclusive)
+     * the age of the kitten in the calling parameter.
      */
     public ArrayList<Kitty> kittenSorter(ArrayList<Kitty> catList) {
         ArrayList<Kitty> kittenList = new ArrayList<>();
         for (Kitty cat : catList) {
-            if (cat.getAge() < 3) {
+            if (cat.getAge() < this.age) {
                 kittenList.add(cat);
             }
         }
